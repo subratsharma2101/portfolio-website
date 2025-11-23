@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge"
+import AnimatedCounter from "@/components/animated-counter"
 
 export default function Experience() {
   const experiences = [
@@ -6,7 +7,7 @@ export default function Experience() {
       id: 1,
       title: "Junior Software Developer (Intern)",
       company: "Mobilise App Pvt. Ltd., New Delhi",
-      period: "Aug 2024 - Present",
+      period: "Aug 2025 - Present",
       description:
         "Currently interning as a Junior Software Developer, working on MERN-based web solutions and performance optimization. Gaining valuable experience in full-stack development while building foundations for a networking career.",
       highlights: ["Full-Stack Development", "MERN Stack", "Backend APIs", "Performance Optimization"],
@@ -16,8 +17,15 @@ export default function Experience() {
       title: "Web Developer Intern",
       company: "THDC India Limited, Rishikesh",
       period: "Sep 2024 - Oct 2024",
-      description:
-        "Developed a scalable and secure MERN-based Job & Internship Portal enabling 100+ students to explore 50+ verified opportunities. Enhanced UX by designing responsive front-end interfaces using React.js. Streamlined hiring workflows by automating job-posting logic, reducing HR manual effort by 60%.",
+      description: (
+        <>
+          Developed a scalable and secure MERN-based Job & Internship Portal enabling{" "}
+          <AnimatedCounter end={100} suffix="+" /> students to explore <AnimatedCounter end={50} suffix="+" /> verified
+          opportunities. Enhanced UX by designing responsive front-end interfaces using React.js. Streamlined hiring
+          workflows by automating job-posting logic, reducing HR manual effort by <AnimatedCounter end={60} suffix="%" />
+          .
+        </>
+      ),
       highlights: ["MERN Stack", "React.js", "Node.js", "MongoDB", "Express.js"],
     },
   ]

@@ -8,10 +8,12 @@ import Projects from "@/components/projects"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import ThemeToggleButton from "@/components/theme-toggle-button"
+import NetworkBackground from "@/components/network-background"
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <NetworkBackground />
       <Hero />
       <About />
       <Education />

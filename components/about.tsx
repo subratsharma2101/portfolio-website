@@ -16,7 +16,7 @@ export default function About() {
           <div className="flex justify-center lg:justify-start">
             <div className="relative w-full max-w-md aspect-square overflow-hidden rounded-2xl border-2 border-cyan-500/30 dark:border-cyan-500/40 shadow-2xl shadow-cyan-500/20 dark:shadow-cyan-500/10 hover:shadow-cyan-500/40 dark:hover:shadow-cyan-500/20 transition-all duration-300">
               <Image
-                src="/professional-developer-portrait.png"
+                src="/subrat-profile.png"
                 alt="Subrat Sharma"
                 width={500}
                 height={500}
@@ -48,7 +48,7 @@ export default function About() {
                 <span className="text-cyan-400 dark:text-cyan-600 font-semibold">
                   Junior Software Developer at Mobilise App Pvt. Ltd.
                 </span>{" "}
-                (Aug 2024 - Present), I'm actively building my networking expertise while applying my development skills
+                (Aug 2025 - Present), I'm actively building my networking expertise while applying my development skills
                 to create robust solutions. Previously, I interned at{" "}
                 <span className="text-cyan-400 dark:text-cyan-600 font-semibold">THDC India Limited</span> where I developed
                 a secure MERN-based Job & Internship Portal, enabling 100+ students to explore 50+ verified opportunities.

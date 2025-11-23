@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Typewriter from "@/components/typewriter"
 
 export default function Hero() {
   const handleDownloadResume = () => {
@@ -31,10 +32,21 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-slate-300 dark:text-slate-700 max-w-3xl mx-auto leading-relaxed font-light">
-          Passionate about <span className="text-cyan-400 dark:text-cyan-600 font-semibold">networking technologies</span> and{" "}
-          <span className="text-blue-400 dark:text-blue-600 font-semibold">network infrastructure</span>. Currently building my expertise in{" "}
-          <span className="text-emerald-400 dark:text-emerald-600 font-semibold">network engineering</span> while leveraging my{" "}
-          software development background to create innovative solutions.
+          Passionate about{" "}
+          <span className="text-cyan-400 dark:text-cyan-600 font-semibold">
+            <Typewriter
+              texts={[
+                "networking technologies",
+                "network infrastructure",
+                "TCP/IP protocols",
+                "routing & switching",
+                "network security",
+                "CCNA certification",
+              ]}
+            />
+          </span>
+          . Currently building my expertise in network engineering while leveraging my software development background to
+          create innovative solutions.
         </p>
 
         <div className="flex flex-wrap gap-6 justify-center pt-8">
