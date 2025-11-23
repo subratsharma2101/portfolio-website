@@ -56,7 +56,7 @@ export default function Certifications() {
 
             <div className="container px-4 md:px-8 lg:px-12 mx-auto max-w-7xl">
                 <div className="text-center mb-20">
-                    <h2 className="text-5xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
+                    <h2 className="text-4xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
                         Certifications & Learning Path
                     </h2>
                     <p className="text-slate-400 dark:text-slate-600 max-w-3xl mx-auto text-lg font-light">
@@ -78,7 +78,7 @@ export default function Certifications() {
                             {certifications.current.map((cert, index) => (
                                 <div
                                     key={index}
-                                    className="group relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 dark:from-slate-100/60 dark:to-slate-200/60 p-8 rounded-2xl border-2 border-cyan-500/40 dark:border-cyan-500/50 hover:border-cyan-400/60 dark:hover:border-cyan-400/70 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/20 dark:hover:shadow-cyan-500/10"
+                                    className="group relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 dark:from-slate-100/60 dark:to-slate-200/60 p-6 md:p-8 rounded-2xl border-2 border-cyan-500/40 dark:border-cyan-500/50 hover:border-cyan-400/60 dark:hover:border-cyan-400/70 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-500/20 dark:hover:shadow-cyan-500/10"
                                 >
                                     <div className="flex items-start gap-6">
                                         <div className="p-4 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 border border-cyan-500/30 dark:border-cyan-500/40">
@@ -113,7 +113,7 @@ export default function Certifications() {
                             {certifications.networking.map((cert, index) => (
                                 <div
                                     key={index}
-                                    className="group relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 dark:from-slate-200/40 dark:to-slate-100/40 border border-emerald-500/30 dark:border-emerald-500/40 p-8 rounded-2xl hover:border-emerald-500/60 dark:hover:border-emerald-500/60 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/10 dark:hover:shadow-emerald-500/5"
+                                    className="group relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 dark:from-slate-200/40 dark:to-slate-100/40 border border-emerald-500/30 dark:border-emerald-500/40 p-6 md:p-8 rounded-2xl hover:border-emerald-500/60 dark:hover:border-emerald-500/60 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/10 dark:hover:shadow-emerald-500/5"
                                 >
                                     <div className="flex items-start gap-4">
                                         <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 dark:from-emerald-500/10 dark:to-teal-500/10 flex items-center justify-center flex-shrink-0">
@@ -148,7 +148,7 @@ export default function Certifications() {
                             {certifications.planned.map((cert, index) => (
                                 <div
                                     key={index}
-                                    className="group relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 dark:from-slate-200/40 dark:to-slate-100/40 border border-blue-500/30 dark:border-blue-500/40 p-8 rounded-2xl hover:border-blue-500/60 dark:hover:border-blue-500/60 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 dark:hover:shadow-blue-500/5"
+                                    className="group relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 dark:from-slate-200/40 dark:to-slate-100/40 border border-blue-500/30 dark:border-blue-500/40 p-6 md:p-8 rounded-2xl hover:border-blue-500/60 dark:hover:border-blue-500/60 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 dark:hover:shadow-blue-500/5"
                                 >
                                     <div className="flex items-start gap-4">
                                         <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 dark:from-blue-500/10 dark:to-indigo-500/10 flex items-center justify-center flex-shrink-0">

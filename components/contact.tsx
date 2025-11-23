@@ -14,7 +14,7 @@ export default function Contact() {
 
       <div className="container px-4 md:px-8 lg:px-12 mx-auto max-w-6xl">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
+          <h2 className="text-4xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
             Get In Touch
           </h2>
           <p className="text-slate-400 dark:text-slate-600 max-w-3xl mx-auto text-lg font-light">
@@ -22,17 +22,17 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid gap-8 md:gap-16 md:grid-cols-3 max-w-4xl mx-auto">
+        <div className="grid gap-6 md:gap-16 md:grid-cols-3 max-w-4xl mx-auto">
           {/* Email - Fully Clickable */}
           <a
             href="mailto:subratsharma21097@gmail.com"
             className="flex flex-col items-center text-center group cursor-pointer"
           >
-            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6 group-hover:scale-105">
+            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-4 md:p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-4 md:mb-6 group-hover:scale-105">
               <Mail className="w-10 h-10 text-cyan-400 dark:text-cyan-600" />
             </div>
             <h3 className="text-xl font-bold text-white dark:text-slate-900 mb-3">Email</h3>
-            <span className="text-slate-400 dark:text-slate-600 text-base md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors break-all px-2">
+            <span className="text-slate-400 dark:text-slate-600 text-sm md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors break-all px-2">
               subratsharma21097@gmail.com
             </span>
           </a>
@@ -42,11 +42,11 @@ export default function Contact() {
             href="tel:+919315600141"
             className="flex flex-col items-center text-center group cursor-pointer"
           >
-            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6 group-hover:scale-105">
+            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-4 md:p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-4 md:mb-6 group-hover:scale-105">
               <Phone className="w-10 h-10 text-cyan-400 dark:text-cyan-600" />
             </div>
             <h3 className="text-xl font-bold text-white dark:text-slate-900 mb-3">Phone</h3>
-            <span className="text-slate-400 dark:text-slate-600 text-base md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors">
+            <span className="text-slate-400 dark:text-slate-600 text-sm md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors">
               +91-9315600141
             </span>
           </a>
@@ -58,11 +58,11 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="flex flex-col items-center text-center group cursor-pointer"
           >
-            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6 group-hover:scale-105">
+            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-4 md:p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-4 md:mb-6 group-hover:scale-105">
               <MapPin className="w-10 h-10 text-cyan-400 dark:text-cyan-600" />
             </div>
             <h3 className="text-xl font-bold text-white dark:text-slate-900 mb-3">Location</h3>
-            <span className="text-slate-400 dark:text-slate-600 text-base md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors">
+            <span className="text-slate-400 dark:text-slate-600 text-sm md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors">
               Mahipalpur, New Delhi
             </span>
           </a>

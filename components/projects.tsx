@@ -318,7 +318,7 @@ class EmotionDetectionModel:
 
         <div className="container px-4 md:px-8 lg:px-12 mx-auto max-w-7xl">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
+            <h2 className="text-4xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
               My Projects
             </h2>
             <p className="text-slate-400 dark:text-slate-600 max-w-3xl mx-auto text-lg font-light">

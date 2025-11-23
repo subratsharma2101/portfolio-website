@@ -24,14 +24,14 @@ export default function Hero() {
           </span>
         </div>
 
-        <h1 className="text-6xl md:text-8xl font-black tracking-tighter text-white dark:text-slate-900 leading-tight">
+        <h1 className="text-5xl md:text-8xl font-black tracking-tighter text-white dark:text-slate-900 leading-tight">
           Hi, I'm{" "}
           <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 dark:from-cyan-600 dark:via-blue-600 dark:to-cyan-500 bg-clip-text text-transparent animate-pulse">
             Subrat Sharma
           </span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-slate-300 dark:text-slate-700 max-w-3xl mx-auto leading-relaxed font-light">
+        <p className="text-lg md:text-2xl text-slate-300 dark:text-slate-700 max-w-3xl mx-auto leading-relaxed font-light">
           Passionate about{" "}
           <span className="text-cyan-400 dark:text-cyan-600 font-semibold">
             <Typewriter

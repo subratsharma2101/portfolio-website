@@ -28,7 +28,7 @@ export default function About() {
 
           <div className="space-y-8">
             <div>
-              <h2 className="text-5xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-4">
+              <h2 className="text-4xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-4">
                 About Me
               </h2>
               <div className="w-16 h-1.5 bg-gradient-to-r from-cyan-400 dark:from-cyan-600 to-blue-500 dark:to-blue-600 rounded-full"></div>

@@ -49,7 +49,7 @@ export default function Skills() {
 
       <div className="container px-4 md:px-8 lg:px-12 mx-auto max-w-7xl">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
+          <h2 className="text-4xl md:text-6xl font-black tracking-tight text-white dark:text-slate-900 mb-6">
             My Skills
           </h2>
           <p className="text-slate-400 dark:text-slate-600 max-w-3xl mx-auto text-lg font-light">
@@ -62,7 +62,7 @@ export default function Skills() {
           {skillCategories.map((category) => (
             <div
               key={category.title}
-              className="group relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 dark:from-slate-200/40 dark:to-slate-100/40 border border-cyan-500/20 dark:border-cyan-500/30 p-10 rounded-2xl hover:border-cyan-500/60 dark:hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10 dark:hover:shadow-cyan-500/5"
+              className="group relative bg-gradient-to-br from-slate-800/40 to-slate-900/40 dark:from-slate-200/40 dark:to-slate-100/40 border border-cyan-500/20 dark:border-cyan-500/30 p-6 md:p-10 rounded-2xl hover:border-cyan-500/60 dark:hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10 dark:hover:shadow-cyan-500/5"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/0 to-cyan-500/0 group-hover:from-cyan-500/5 group-hover:to-cyan-500/5 dark:group-hover:from-cyan-500/2 dark:group-hover:to-cyan-500/2 rounded-2xl transition-all duration-300 -z-10"></div>
 
