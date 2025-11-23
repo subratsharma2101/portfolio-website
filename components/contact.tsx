@@ -54,7 +54,14 @@ export default function Contact() {
               <MapPin className="w-10 h-10 text-cyan-400 dark:text-cyan-600" />
             </div>
             <h3 className="text-xl font-bold text-white dark:text-slate-900 mb-3">Location</h3>
-            <p className="text-slate-400 dark:text-slate-600 text-lg">South-West Delhi, India</p>
+            <a
+              href="https://www.google.com/maps/place/Mahipalpur,+New+Delhi,+Delhi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 dark:text-slate-600 text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors cursor-pointer"
+            >
+              Mahipalpur, New Delhi
+            </a>
           </div>
         </div>
 

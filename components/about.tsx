@@ -37,7 +37,7 @@ export default function About() {
             <div className="space-y-6">
               <p className="text-slate-300 dark:text-slate-700 leading-relaxed text-lg font-light">
                 I'm a motivated Computer Science undergraduate from{" "}
-                <span className="text-cyan-400 dark:text-cyan-600 font-semibold">South-West Delhi, India</span>, with a
+                <span className="text-cyan-400 dark:text-cyan-600 font-semibold">Mahipalpur, New Delhi</span>, with a
                 deep passion for <span className="text-cyan-400 dark:text-cyan-600 font-semibold">networking technologies</span> and{" "}
                 network infrastructure. While I've built strong foundations in full-stack development and machine learning,
                 my true calling lies in the world of <span className="text-blue-400 dark:text-blue-600 font-semibold">network engineering</span>.
