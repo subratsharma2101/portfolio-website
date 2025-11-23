@@ -7,7 +7,6 @@ import Certifications from "@/components/certifications"
 import Projects from "@/components/projects"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
-import ThemeToggleButton from "@/components/theme-toggle-button"
 import NetworkBackground from "@/components/network-background"
 
 export default function Home() {
@@ -23,7 +22,6 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
-      <ThemeToggleButton />
     </main>
   )
 }
