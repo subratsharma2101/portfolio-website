@@ -22,47 +22,50 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid gap-16 md:grid-cols-3 max-w-4xl mx-auto">
-          <div className="flex flex-col items-center text-center group">
-            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6">
+        <div className="grid gap-8 md:gap-16 md:grid-cols-3 max-w-4xl mx-auto">
+          {/* Email - Fully Clickable */}
+          <a
+            href="mailto:subratsharma21097@gmail.com"
+            className="flex flex-col items-center text-center group cursor-pointer"
+          >
+            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6 group-hover:scale-105">
               <Mail className="w-10 h-10 text-cyan-400 dark:text-cyan-600" />
             </div>
             <h3 className="text-xl font-bold text-white dark:text-slate-900 mb-3">Email</h3>
-            <a
-              href="mailto:subratsharma21097@gmail.com"
-              className="text-slate-400 dark:text-slate-600 text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors"
-            >
+            <span className="text-slate-400 dark:text-slate-600 text-base md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors break-all px-2">
               subratsharma21097@gmail.com
-            </a>
-          </div>
+            </span>
+          </a>
 
-          <div className="flex flex-col items-center text-center group">
-            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6">
+          {/* Phone - Fully Clickable */}
+          <a
+            href="tel:+919315600141"
+            className="flex flex-col items-center text-center group cursor-pointer"
+          >
+            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6 group-hover:scale-105">
               <Phone className="w-10 h-10 text-cyan-400 dark:text-cyan-600" />
             </div>
             <h3 className="text-xl font-bold text-white dark:text-slate-900 mb-3">Phone</h3>
-            <a
-              href="tel:+919315600141"
-              className="text-slate-400 dark:text-slate-600 text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors"
-            >
+            <span className="text-slate-400 dark:text-slate-600 text-base md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors">
               +91-9315600141
-            </a>
-          </div>
+            </span>
+          </a>
 
-          <div className="flex flex-col items-center text-center group">
-            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6">
+          {/* Location - Fully Clickable */}
+          <a
+            href="https://www.google.com/maps/place/Mahipalpur,+New+Delhi,+Delhi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center text-center group cursor-pointer"
+          >
+            <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 dark:from-cyan-500/30 dark:to-blue-500/30 p-6 rounded-xl border border-cyan-500/30 dark:border-cyan-500/40 group-hover:border-cyan-500/60 dark:group-hover:border-cyan-500/50 transition-all duration-300 mb-6 group-hover:scale-105">
               <MapPin className="w-10 h-10 text-cyan-400 dark:text-cyan-600" />
             </div>
             <h3 className="text-xl font-bold text-white dark:text-slate-900 mb-3">Location</h3>
-            <a
-              href="https://www.google.com/maps/place/Mahipalpur,+New+Delhi,+Delhi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-400 dark:text-slate-600 text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors cursor-pointer"
-            >
+            <span className="text-slate-400 dark:text-slate-600 text-base md:text-lg hover:text-cyan-400 dark:hover:text-cyan-600 transition-colors">
               Mahipalpur, New Delhi
-            </a>
-          </div>
+            </span>
+          </a>
         </div>
 
         {/* Social Media Links */}
